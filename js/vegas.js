@@ -2,7 +2,6 @@ $(function() {
     $('#mainimg').vegas({
         slides: [
             { src: './images/横1.png' },	//1枚目の写真指定
-            { src: './images/横2.png' },	//2枚目の写真指定
             { src: './images/横4.png' },	//3枚目の写真指定
         ],
 		transition: 'blur',			//https://vegas.jaysalvat.com/documentation/transitions/から好みのtransitionを選んで置き換えられます。
